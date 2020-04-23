@@ -8,6 +8,10 @@ import org.springframework.hateoas.mediatype.vnderrors.VndErrors;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import rubusdata.location.domain.entity.Order;
+import rubusdata.location.domain.entity.Status;
+import rubusdata.location.domain.exception.OrderNotFoundException;
+import rubusdata.location.domain.repository.OrderRepository;
 
 import java.util.List;
 import java.util.stream.Collectors;

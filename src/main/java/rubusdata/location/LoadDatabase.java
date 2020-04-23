@@ -26,8 +26,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import rubusdata.location.domain.Customer;
-import rubusdata.location.domain.CustomerRepository;
+import rubusdata.location.domain.entity.Customer;
+import rubusdata.location.domain.repository.CustomerRepository;
 
 @SpringBootApplication
 public class LoadDatabase implements CommandLineRunner {

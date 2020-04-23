@@ -2,44 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d49909ae-84d9-40a9-bd20-e18900418813" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/rubusdata/location/app/http/controller/action/employee/CreateEmployeeAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rubusdata/location/app/http/controller/action/employee/DeleteEmployeeAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rubusdata/location/app/http/controller/action/employee/ListEmployeeAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rubusdata/location/app/http/controller/action/employee/ReadEmployeeAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rubusdata/location/app/http/controller/action/employee/UpdateEmployeeAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rubusdata/location/LoadDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rubusdata/location/LoadDatabase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rubusdata/location/domain/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rubusdata/location/domain/entity/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rubusdata/location/domain/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rubusdata/location/domain/repository/CustomerRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rubusdata/location/domain/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rubusdata/location/domain/entity/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rubusdata/location/domain/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rubusdata/location/domain/EmployeeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rubusdata/location/domain/EmployeeModelAssembler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rubusdata/location/domain/EmployeeModelAssembler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rubusdata/location/domain/EmployeeNotFoundAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rubusdata/location/domain/exception/EmployeeNotFoundAdvice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rubusdata/location/domain/EmployeeNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rubusdata/location/domain/exception/EmployeeNotFoundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rubusdata/location/domain/EmployeeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rubusdata/location/domain/repository/EmployeeRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rubusdata/location/domain/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rubusdata/location/domain/entity/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rubusdata/location/domain/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rubusdata/location/domain/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rubusdata/location/domain/OrderModelAssembler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rubusdata/location/domain/OrderModelAssembler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rubusdata/location/domain/OrderNotFoundAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rubusdata/location/domain/exception/OrderNotFoundAdvice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rubusdata/location/domain/OrderNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rubusdata/location/domain/exception/OrderNotFoundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rubusdata/location/domain/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rubusdata/location/domain/repository/OrderRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rubusdata/location/domain/Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rubusdata/location/domain/entity/Status.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/rubusdata/location/LoadDatabase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rubusdata/location/LoadDatabase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/rubusdata/location/domain/Customer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/rubusdata/location/domain/CustomerRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/rubusdata/location/domain/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/rubusdata/location/domain/EmployeeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rubusdata/location/domain/EmployeeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/rubusdata/location/domain/EmployeeModelAssembler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rubusdata/location/domain/EmployeeModelAssembler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/rubusdata/location/domain/EmployeeNotFoundAdvice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/rubusdata/location/domain/EmployeeNotFoundException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/rubusdata/location/domain/EmployeeRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/rubusdata/location/domain/Order.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/rubusdata/location/domain/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rubusdata/location/domain/OrderController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/rubusdata/location/domain/OrderModelAssembler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rubusdata/location/domain/OrderModelAssembler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/rubusdata/location/domain/OrderNotFoundAdvice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/rubusdata/location/domain/OrderNotFoundException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/rubusdata/location/domain/OrderRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/rubusdata/location/domain/Status.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rubusdata/location/app/http/controller/action/CreateLocation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rubusdata/location/app/http/controller/action/location/CreateLocation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rubusdata/location/app/http/controller/action/DeleteLocation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rubusdata/location/app/http/controller/action/location/DeleteLocation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rubusdata/location/app/http/controller/action/GetLocation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rubusdata/location/app/http/controller/action/location/ReadLocation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rubusdata/location/app/http/controller/action/ListLocation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rubusdata/location/app/http/controller/action/location/ListLocation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rubusdata/location/app/http/controller/action/UpdateLocation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rubusdata/location/app/http/controller/action/location/UpdateLocation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rubusdata/location/domain/OrderController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rubusdata/location/domain/OrderModelAssembler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rubusdata/location/domain/assembler/OrderModelAssembler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +49,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="rubusdata.location.app.http.controller.action.order" />
       <recent name="rubusdata.location.domain" />
     </key>
   </component>
